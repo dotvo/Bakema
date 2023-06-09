@@ -1,0 +1,108 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+      body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .pattern {
+        background-image: url(face.gif);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+  
+      .button-container {
+        text-align: center;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+<body * { padding: 0; margin: 0; }>
+
+  <script>
+    function changeBackground() {
+      var body = document.querySelector('body');
+      body.classList.add('pattern');
+    }
+  </script>
+</body>
+
+<img onclick="brapp()" id="redButton" src="redButton.png" class="centered" style="padding-bottom:250px;">
+<section style="position:absolute; bottom:50px;z-index:9999999; width:100%">
+	<!-- <img id="poo4" onclick="ahyesmydear()" src="1ia51u.png" class="fandom"> -->
+</section>
+<!-- <img onclick="ahyesmydear()" id="poo3" src="fandom.png" class="fandom"> -->
+
+
+<!--<audio id="shart" preload hidden loop src="scream.mp3mp3"></audio>-->
+
+<div onmouseover="tfs()" class="trap"></div>
+<div id="poo" class="black"></div>
+<div class="centain">
+<div class="center">
+<video id="fartvid" loop src="helpme.mp40"></video>
+</div>
+</div>
+<div class="backg"><img src="face.gif"></div>
+<script>
+
+
+window.onbeforeunload = function() { return 'I hate beggera.'; }
+
+function brapp() {
+  changeBackground()
+  var fart = document.getElementById("redButton");
+  fart.parentNode.removeChild(fart);
+  var audio = new Audio('scream.mp3');
+  audio.play();
+
+  var $video = $('#fartvid');
+  $video.get(0).play();
+  
+  //var video = new video('helpme.mp4');
+  //video.play();
+}
+
+//var $video = $('#fart');
+//$video.get(0).play();
+
+  
+function ahyesmydear() {
+   window.open("https://roblox.com/");
+}
+
+function tfs()
+{
+
+	if (!document.fullscreenElement &&  !document.mozFullScreenElement && !document.webkitFullscreenElement)
+	{
+		if (document.documentElement.requestFullscreen)
+		{
+			document.documentElement.requestFullscreen();
+
+		}
+		else if (document.documentElement.mozRequestFullScreen)
+		{
+			document.documentElement.mozRequestFullScreen();
+
+		}
+		else if (document.documentElement.webkitRequestFullscreen)
+		{
+			document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+		}
+	}
+	openBrowser();
+}
+
+</script>
