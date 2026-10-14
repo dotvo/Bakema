@@ -1,0 +1,4 @@
+anthropic>=1.13
+mss>=9
+pillow>=10
+pynput>=1.7
